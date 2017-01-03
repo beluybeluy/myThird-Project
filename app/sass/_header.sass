@@ -1,0 +1,65 @@
+
+
+
+
+.header 
+  background: url(../img/home-bg.jpg) center
+  background-size: cover
+
+.nav 
+  padding: 35px 150px
+  display: flex
+  border-bottom: 1px solid #fff
+  +br($br)
+  justify-content: space-between
+  position: fixed
+  left: 0
+  right: 0
+  margin: 0 auto
+  background: #000
+  &__menu_item
+      display: inline-block
+   
+  &__menu_link 
+      text-transform: uppercase
+      color: $txt-color1
+      font: 14px Hind-Semibold, sans-serif
+      text-decoration: none
+      padding-right: 30px
+      position: relative
+
+.home 
+  padding:   
+      top: 250px
+      right: 0
+      bottom: 230px
+      left: 0
+  text-align: center
+
+  &__title 
+      text-transform: capitalize
+      color: $txt-color1
+      font: 70px/98px Hind-Bold, sans-serif
+      margin-bottom: 10px
+
+  &__undertitle 
+      font: 25px/35px Hind-Regular, sans-serif
+      color: $txt-color1
+      margin-bottom: 50px
+
+  &__btn 
+      font: 15px Hind-Semibold, sans-serif
+      text-transform: uppercase
+      text-decoration: none
+      color: $txt-color2
+      padding: 20px 30px
+      background: $txt-color1
+      cursor: pointer
+      transition: 0.5s
+
+      &:hover 
+         background: $bcg1
+         color: $txt-color1
+
+
+

@@ -1,0 +1,26 @@
+doctype html
+html
+head
+-  user = "Ruslan Biletkyi"
+-  menuItem = ['home', 'products', 'service', 'work', 'pricing', 'contact']
+- prod = []
+//for generation menu
+mixin menu(items)
+   ul.nav__menu_list 
+      each item in items
+         li.nav__menu_item: a(href="#", class="nav__menu_link") #{item}
+html
+   head
+      meta(charset="UTF-8")
+      title My first page with pug
+      link(rel="stylesheet", href="css/libs.min.css")
+      link(rel="stylesheet", href="css/reset.css")
+      link(rel="stylesheet", href="css/main.css")
+   body
+      div.wrapper
+         include _header.pug
+         include _product.pug
+        
+// hello from comments again
+include _footer.pug  
+   

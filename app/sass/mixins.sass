@@ -1,0 +1,28 @@
+@mixin border($place, $width, $color)
+   @if $place == 'all'
+      border: $width solid $color
+   @else
+      border-#{$place}: $width solid $color  
+      
+=br($br)
+   border-radius: $br
+
+=links($link, $visit, $hover, $active)
+   a
+      color: $link
+      &:visited
+         color: $visit
+      &:hover
+         color: $hover
+      &:active
+         color: $active
+      
+=bgpng($img)
+   background: $bg url(../img/#{$img}.png) no-repeat 0 0
+
+=bgjpg($img)
+   background: $bg url(../img/#{$img}.jpg) no-repeat 0 0
+
+
+
+   

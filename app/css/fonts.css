@@ -1,0 +1,14 @@
+@font-face {
+  src: url(../fonts/Hind-Regular.ttf);
+  font-family: Hind-Regular;
+}
+
+@font-face {
+  src: url(../fonts/Hind-Bold.ttf);
+  font-family: Hind-Bold;
+}
+
+@font-face {
+  src: url(../fonts/Hind-Semibold.ttf);
+  font-family: Hind-Semibold;
+}
