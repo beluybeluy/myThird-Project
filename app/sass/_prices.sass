@@ -1,0 +1,59 @@
+.prices
+   padding: 50px 0
+   background: $bg
+   
+   &__wrap
+      max-width: 100%
+      border: 1px solid #000
+      display: flex
+      flex-flow:  row wrap
+      justify-content: space-between
+   &__item
+      padding: 50px 35px
+      margin: 100px 3px
+      background: #fff
+      flex-grow: 1
+      flex-basis: 200px
+      &:nth-child(2)
+         padding: 100px 35px
+         margin: 50px 0
+      &_title
+         font: 22px/22px Hind-Bold, sans-serif
+         color: $title-color2
+         padding: 20px 0
+      &_modify
+         color: $txt-color2
+         font: 16px/22px Hind-Regular, sans-serif
+         
+      &_text
+         font: 15px/22px Hind-Regular, sans-serif
+         color: $txt-color3
+         font-weight: 400
+   &__list
+      
+      font: 13px/13px Hind-Regular, sans-serif
+      padding: 20px 0 50px 0px
+      &_item
+         padding: 10px 20px
+         position: relative
+         color: $txt-color5
+         &:before
+            content: " "
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 9px;
+            height: 2px;
+            background: #17bed2;
+   &__link
+      text-transform: uppercase
+      font:13px/13px Hind-Bold, sans-serif
+      padding: 15px 40px
+      text-decoration: none
+      color: $title-color2
+      background: $bg2
+      transition: 2s
+      &:hover 
+         background: $bcg1
+         color: $txt-color1
+   
